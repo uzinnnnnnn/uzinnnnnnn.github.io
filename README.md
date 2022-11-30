@@ -2,7 +2,7 @@
 ***
 소프트웨어학부 20223059 김유진
 
-![mainpage](assets/img/favicon.png)
+![mainpage](assets/img/blog.png)
 
 ## 0. 설치한 것
 ##### 1. Ruby
@@ -17,7 +17,7 @@ Jekyll이 올바르게 설치되었는지 확인
  [참조 사이트](https://coding-factory.tistory.com/502)
 
 ##  1. Github에서 블로그 용으로 쓸 Repository 생성
-Github에서 <username>.github.io 이름의 Repository 생성.
+Github에서 \<username>.github.io 이름의 Repository 생성.
 
 ## 2. Local-Remote Repository 연동
 1. Remote Repository의 주소를 복사
@@ -57,6 +57,7 @@ localhost:4000 접속
 
 
 ##### 2. 댓글 기능 추가
+![mainpage](assets/img/discus.png)
 1. [DISQUS](https://disqus.com/) 가입 및 세팅
 2. `_config.yml` 수정
 ```yml
@@ -66,6 +67,7 @@ comments:
     shortname : "uzinnnnnnn-github-io"                    # disqus의 shortname 기재
 ```
 ##### 3. 구글 애널리틱스 추가
+![mainpage](assets/img/g_a.png)
 https://uzinnnnnnn.github.io/
 블로그에 상세 설명
 
