@@ -1,4 +1,4 @@
-[uzinnnnnnn.github.io](https://sinji2102.github.io/)
+# [uzinnnnnnn.github.io](https://sinji2102.github.io/)
 ***
 소프트웨어학부 20223059 김유진
 
@@ -48,7 +48,7 @@ localhost:4000 접속
 
 
 ## 5. Blog customize
-##### 1. 파비콘 세팅 
+### 1. 파비콘 세팅 
 - 원하는 사진을 https://realfavicongenerator.net/ 에 업로드 후 압축 폴더 다운
 - `_assets` 폴더에 `logo.ico` 폴더 만들어 이곳에 압축 풀기
 - custom.html 수정
@@ -56,7 +56,7 @@ localhost:4000 접속
 - git에 반영(add, commit, push)
 
 
-##### 2. 댓글 기능 추가
+### 2. 댓글 기능 추가
 ![mainpage](assets/img/discus.png)
 1. [DISQUS](https://disqus.com/) 가입 및 세팅
 2. `_config.yml` 수정
@@ -66,7 +66,7 @@ comments:
   disqus:
     shortname : "uzinnnnnnn-github-io"                    # disqus의 shortname 기재
 ```
-##### 3. 구글 애널리틱스 추가
+### 3. 구글 애널리틱스 추가
 ![mainpage](assets/img/g_a.png)
 https://uzinnnnnnn.github.io/
 블로그에 상세 설명
