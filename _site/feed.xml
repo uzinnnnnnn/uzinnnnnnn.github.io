@@ -1,1 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-30T15:18:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">유진’s blog</title><subtitle>An amazing website.</subtitle><author><name>kim youzin</name></author><entry><title type="html">포스팅 테스트</title><link href="http://localhost:4000/github%20blog/%ED%8F%AC%EC%8A%A4%ED%8C%85%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="포스팅 테스트" /><published>2022-11-30T00:00:00+09:00</published><updated>2022-11-30T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/%ED%8F%AC%EC%8A%A4%ED%8C%85%ED%85%8C%EC%8A%A4%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/github%20blog/%ED%8F%AC%EC%8A%A4%ED%8C%85%ED%85%8C%EC%8A%A4%ED%8A%B8/"><![CDATA[]]></content><author><name>kim youzin</name></author><category term="Github Blog" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-30T21:08:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">유진’s blog</title><subtitle>An amazing website.</subtitle><author><name>kim youzin</name></author><entry><title type="html">Google Analytics로 방문자 통계하기</title><link href="http://localhost:4000/github%20blog/%ED%8F%AC%EC%8A%A4%ED%8C%85%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="Google Analytics로 방문자 통계하기" /><published>2022-11-30T00:00:00+09:00</published><updated>2022-11-30T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/%ED%8F%AC%EC%8A%A4%ED%8C%85%ED%85%8C%EC%8A%A4%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/github%20blog/%ED%8F%AC%EC%8A%A4%ED%8C%85%ED%85%8C%EC%8A%A4%ED%8A%B8/"><![CDATA[<p>사람들이 내 블로그에 얼마나 방문했을까?
+Google Analytics를 적용하여 알아보자</p>
+
+<h2 id="-google-analytics">✨ Google Analytics?✨</h2>
+<blockquote>
+  <p>구글에서 제공하는 웹로그 분석 도구 무료이다!</p>
+</blockquote>
+
+<h2 id="google-analytics-시작하기">Google Analytics 시작하기</h2>
+<h6 id="이-글은-minimal-mistakes-테마-기준으로-작성하였습니다"><em>이 글은 minimal mistakes 테마 기준으로 작성하였습니다</em></h6>
+<ol>
+  <li>
+    <p><a href="https://www.markdownguide.org/basic-syntax/">Google Analytice</a> 에 접속하여 <strong>회원가입</strong> 또는 <strong>로그인</strong>을 해준다.</p>
+  </li>
+  <li>
+    <p>계정 설정 페이지가 나오면 ‘새 계정 이름’을 넣고 <strong>다음</strong>을 누른다.</p>
+  </li>
+  <li>
+    <p>속성 이름 -&gt; github 블로그 주소 등록</p>
+
+    <p>보고 시간대 -&gt; 대한민국</p>
+
+    <p>통화 -&gt; 대한민국</p>
+  </li>
+</ol>
+
+<h2 id="블로그에-사용할-id-찾기">블로그에 사용할 ID 찾기</h2>
+<ol>
+  <li>왼쪽 가장 하단에 있는 <code class="language-plaintext highlighter-rouge">관리</code>탭으로 간다.</li>
+  <li><code class="language-plaintext highlighter-rouge">데이터 스트림</code>을 찾아 들어간 후 <strong>Github Blog</strong> 주소를 찾아 들어간다.</li>
+  <li><strong>웹 스트림 세부정보</strong> 페이지에서 <code class="language-plaintext highlighter-rouge">측정 ID</code> 복사!</li>
+</ol>
+
+<h2 id="_configyml-파일-수정하기"><code class="language-plaintext highlighter-rouge">_config.yml</code> 파일 수정하기</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : "G-ESG92JFC0S" 
+    anonymize_ip         : # true, false (default)
+</code></pre></div></div>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tracking_id</code>에 복사한 <code class="language-plaintext highlighter-rouge">측정 ID</code> 넣기</li>
+</ul>
+
+<h2 id="aanlytics-테스트-해보기">Aanlytics 테스트 해보기</h2>
+<p>Google Analytics에 재접속하면 방문자 통계 확인 가능!</p>]]></content><author><name>kim youzin</name></author><category term="Github Blog" /><summary type="html"><![CDATA[사람들이 내 블로그에 얼마나 방문했을까? Google Analytics를 적용하여 알아보자]]></summary></entry></feed>
