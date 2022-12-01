@@ -1,4 +1,4 @@
-# [uzinnnnnnn.github.io](https://sinji2102.github.io/)
+# [uzinnnnnnn.github.io](https://uzinnnnnnn.github.io/)
 ***
 소프트웨어학부 20223059 김유진
 
